@@ -1,0 +1,55 @@
+:root{
+    --bg-dark: #242424;
+    --text-black: black;
+}
+
+body{
+    background-color: var(--bg-dark);
+    font-family: 'PT Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+  
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    height: 91.55dvh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .services {
+    background-image: url('/assets/Images/Boat.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--text-black);
+    font-size: 6.25rem;
+  }
+  
+  .products {
+    background-image: url('/assets/Images/Lake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--text-black);
+    font-size: 6.25rem;
+}
+  
+  .sign-up {
+    background-image: url('/assets/Images/Beach.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--text-black);
+    font-size: 6.25rem;
+}
