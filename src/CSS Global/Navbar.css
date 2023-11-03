@@ -40,7 +40,7 @@
     margin-left: 0.5rem;
     font-size: 1.8rem;
 }
-
+/* ul */
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(4,auto);
@@ -52,6 +52,7 @@
     margin-right: 2rem;
 }
 
+/* li */
 .nav-items{
     height: 60px;
 }
